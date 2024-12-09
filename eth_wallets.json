@@ -1,0 +1,10 @@
+[
+{
+  "arg_long_name": "eth_wallets",
+  "help_message": "Extract Ethereum wallet addresses.",
+  "content_type": "eth_wallets",
+  "source_url": "https://github.com/titanjaspero/ds-plugins",
+  "version": "0.0.1",
+  "regex": "\\b0x[a-fA-F0-9]{40}\\b"
+}
+]
