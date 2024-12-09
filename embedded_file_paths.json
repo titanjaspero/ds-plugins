@@ -1,0 +1,10 @@
+[
+{
+  "arg_long_name": "embedded_file_paths",
+  "help_message": "Detect embedded file paths.",
+  "content_type": "file_paths",
+  "source_url": "https://github.com/titanjaspero/ds-plugins",
+  "version": "0.0.1",
+  "regex": "\\b(/[A-Za-z0-9._-]+)+\\b|\\b[A-Za-z]:\\\\[A-Za-z0-9._\\\\-]+\\b"
+}
+]
