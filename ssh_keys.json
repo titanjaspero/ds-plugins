@@ -1,0 +1,11 @@
+[
+{
+  "arg_long_name": "ssh_keys",
+  "help_message": "Extract SSH public and private keys.",
+  "content_type": "ssh_keys",
+  "source_url": "https://github.com/titanjaspero/ds-plugins",
+  "version": "0.0.1",
+  "regex": "ssh-[a-zA-Z0-9]+\\s[A-Za-z0-9+/=]+\\s.*|-----BEGIN\\s[A-Z]+\\sPRIVATE\\sKEY-----([\\s\\S]*?)-----END\\s[A-Z]+\\sPRIVATE\\sKEY-----"
+}
+
+]
